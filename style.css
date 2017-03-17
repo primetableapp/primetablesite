@@ -1,0 +1,77 @@
+body, html  { height: 50%; }html, body, div, span, applet, object, iframe,p, blockquote, pre,a, abbr, acronym, address,del, dfn, em, font, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td {margin: 0;padding: 0;border: 0;outline: 0;font-size: 100%;vertical-align: baseline;background: transparent;}body { line-height: 1; }ol, ul { list-style: none; }blockquote, q { quotes: none; }blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }:focus { outline: 0; }del { text-decoration: line-through; }table {border-spacing: 0; }
+
+.clear {clear: both;display:block;overflow: hidden;visibility: hidden;width: 0;height: 0;}
+
+body{
+	color: #FFFFFF;
+	font-size: 130%;
+	font-family: Avenir Next;
+	line-height: 200%;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.75);
+	background:url(bg.png);
+    background-size: 100%;
+    background-repeat: no-repeat
+        
+}
+a,
+a:link,
+a:visited {
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration:none;
+}
+a:active,
+a:hover {
+	color: #ffffff;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.75), 0 0 5px rgba(198,234,247,0.4);
+}
+p{
+	margin-bottom: 0.3em;
+}
+.center,
+img.center {
+	text-align: left;
+	clear: both;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#coming-soon{
+	background: rgba(0,0,0,0.0);
+	display: inline-block;
+	position: center;
+	width: 60%;
+	height: 20%;
+	top: 20%;
+	left: 30%;
+	margin: -100% 0 0 100%;
+}
+#coming-soon h1{
+	text-align: center;
+	font-size:40%;
+}
+#coming-soon img{
+    clear: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50%;
+}
+#coming-soon p{
+	text-align: left;
+}
+
+.btn-default {
+    background-color: #F6921E;
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 100%;
+    margin: -260 4px;
+    margin-left: 30%;
+    border-radius: 100px;
+   
+}
